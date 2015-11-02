@@ -15,6 +15,7 @@
     </sprites>
     <sprite>sprites\spr_bloc</sprite>
     <sprite>sprites\spr_caisse</sprite>
+    <sprite>sprites\spr_bool</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -22,9 +23,10 @@
     <object>objects\obj_caisse</object>
     <object>objects\obj_player</object>
     <object>objects\obj_bloc</object>
+    <object>objects\obj_bool</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\room1</room>
+    <room>rooms\rm_tests</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
