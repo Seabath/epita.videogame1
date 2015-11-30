@@ -4,7 +4,9 @@
     <Config>Configs\Default</Config>
   </Configs>
   <NewExtensions/>
-  <sounds name="sound"/>
+  <sounds name="sound">
+    <sound>sound\snd_theme</sound>
+  </sounds>
   <sprites name="sprites">
     <sprites name="player_set">
       <sprite>sprites\spr_run_bot</sprite>
@@ -14,19 +16,36 @@
       <sprite>sprites\spr_player</sprite>
     </sprites>
     <sprite>sprites\spr_bloc</sprite>
-    <sprite>sprites\spr_caisse</sprite>
+    <sprite>sprites\spr_miroir</sprite>
     <sprite>sprites\spr_bool</sprite>
+    <sprite>sprites\spr_ice</sprite>
+    <sprite>sprites\spr_lava</sprite>
+    <sprite>sprites\spr_cible</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <script>scripts\scr_message.gml</script>
+  </scripts>
   <objects name="objects">
     <object>objects\obj_caisse</object>
+    <object>objects\obj_target</object>
+    <object>objects\obj_glace</object>
     <object>objects\obj_player</object>
     <object>objects\obj_bloc</object>
+    <object>objects\obj_lave</object>
     <object>objects\obj_bool</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_tests</room>
+    <room>rooms\rm_tuto_1</room>
+    <room>rooms\rm_tuto_2</room>
+    <room>rooms\rm_tuto_3</room>
+    <room>rooms\rm_tuto_4</room>
+    <room>rooms\rm_tuto_5</room>
+    <room>rooms\rm_tuto_6</room>
+    <room>rooms\rm_tuto_7</room>
+    <room>rooms\rm_empty</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

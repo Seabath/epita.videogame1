@@ -33,6 +33,72 @@
           </argument>
         </arguments>
       </action>
+      <action>
+        <libid>1</libid>
+        <id>601</id>
+        <kind>0</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>1</exetype>
+        <functionname>action_execute_script</functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>9</kind>
+            <script>scr_message</script>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string></string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string></string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string></string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string></string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string></string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="4" ename="obj_lave">
+      <action>
+        <libid>1</libid>
+        <id>109</id>
+        <kind>0</kind>
+        <userelative>-1</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>1</exetype>
+        <functionname>action_move_to</functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>-1</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>0</kind>
+            <string>0</string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string>0</string>
+          </argument>
+        </arguments>
+      </action>
     </event>
     <event eventtype="4" ename="obj_bloc">
       <action>
@@ -60,7 +126,7 @@
         </arguments>
       </action>
     </event>
-    <event eventtype="9" enumb="40">
+    <event eventtype="5" enumb="40">
       <action>
         <libid>1</libid>
         <id>541</id>
@@ -109,12 +175,12 @@
           </argument>
           <argument>
             <kind>0</kind>
-            <string>32</string>
+            <string>5</string>
           </argument>
         </arguments>
       </action>
     </event>
-    <event eventtype="9" enumb="39">
+    <event eventtype="5" enumb="39">
       <action>
         <libid>1</libid>
         <id>541</id>
@@ -159,7 +225,7 @@
         <arguments>
           <argument>
             <kind>0</kind>
-            <string>32</string>
+            <string>5</string>
           </argument>
           <argument>
             <kind>0</kind>
@@ -168,7 +234,7 @@
         </arguments>
       </action>
     </event>
-    <event eventtype="9" enumb="38">
+    <event eventtype="5" enumb="38">
       <action>
         <libid>1</libid>
         <id>541</id>
@@ -217,12 +283,12 @@
           </argument>
           <argument>
             <kind>0</kind>
-            <string>-32</string>
+            <string>-5</string>
           </argument>
         </arguments>
       </action>
     </event>
-    <event eventtype="9" enumb="37">
+    <event eventtype="5" enumb="37">
       <action>
         <libid>1</libid>
         <id>541</id>
@@ -267,7 +333,7 @@
         <arguments>
           <argument>
             <kind>0</kind>
-            <string>-32</string>
+            <string>-5</string>
           </argument>
           <argument>
             <kind>0</kind>
@@ -276,16 +342,32 @@
         </arguments>
       </action>
     </event>
-    <event eventtype="9" enumb="8">
+    <event eventtype="9" enumb="17">
       <action>
         <libid>1</libid>
-        <id>331</id>
+        <id>222</id>
         <kind>0</kind>
         <userelative>0</userelative>
         <isquestion>0</isquestion>
         <useapplyto>0</useapplyto>
         <exetype>1</exetype>
-        <functionname>action_restart_game</functionname>
+        <functionname>action_next_room</functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+      </action>
+    </event>
+    <event eventtype="9" enumb="8">
+      <action>
+        <libid>1</libid>
+        <id>223</id>
+        <kind>0</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>0</useapplyto>
+        <exetype>1</exetype>
+        <functionname>action_current_room</functionname>
         <codestring></codestring>
         <whoName>self</whoName>
         <relative>0</relative>
